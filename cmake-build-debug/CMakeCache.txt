@@ -152,7 +152,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=mymuduo
+CMAKE_PROJECT_NAME:STATIC=muduol
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -221,6 +221,15 @@ EXECUTABLE_OUTPUT_PATH:PATH=
 
 //Single output directory for building all libraries.
 LIBRARY_OUTPUT_PATH:PATH=
+
+//Value Computed by CMake
+muduol_BINARY_DIR:STATIC=/home/zlzong/dev/c/muduo-learn/cmake-build-debug
+
+//Value Computed by CMake
+muduol_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+muduol_SOURCE_DIR:STATIC=/home/zlzong/dev/c/muduo-learn
 
 //Value Computed by CMake
 mymuduo_BINARY_DIR:STATIC=/home/zlzong/dev/c/muduo-learn/cmake-build-debug

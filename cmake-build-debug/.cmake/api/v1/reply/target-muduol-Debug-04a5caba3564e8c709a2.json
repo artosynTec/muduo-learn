@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/zlzong/dev/c/muduo-learn/lib/libmymuduo.so"
+			"path" : "/home/zlzong/dev/c/muduo-learn/lib/libmuduol.so"
 		}
 	],
 	"backtrace" : 1,
@@ -41,7 +41,7 @@
 			"defines" : 
 			[
 				{
-					"define" : "mymuduo_EXPORTS"
+					"define" : "muduol_EXPORTS"
 				}
 			],
 			"language" : "CXX",
@@ -67,7 +67,7 @@
 			]
 		}
 	],
-	"id" : "mymuduo::@6890427a1f51a3e7e1df",
+	"id" : "muduol::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "mymuduo",
-	"nameOnDisk" : "libmymuduo.so",
+	"name" : "muduol",
+	"nameOnDisk" : "libmuduol.so",
 	"paths" : 
 	{
 		"build" : ".",

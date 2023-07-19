@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: mymuduo
+# Project: muduol
 # Configurations: Debug
 # =============================================================================
 
@@ -41,185 +41,150 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/zlzong/dev/c/muduo-learn/cmake-build-debug/
 # =============================================================================
-# Object build statements for SHARED_LIBRARY target mymuduo
+# Object build statements for SHARED_LIBRARY target muduol
 
 
 #############################################
-# Order-only phony target for mymuduo
+# Order-only phony target for muduol
 
-build cmake_object_order_depends_target_mymuduo: phony || CMakeFiles/mymuduo.dir
+build cmake_object_order_depends_target_muduol: phony || CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/Acceptor.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/Acceptor.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/Acceptor.o.d
+build CMakeFiles/muduol.dir/Acceptor.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/Acceptor.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/Acceptor.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/Buffer.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/Buffer.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/Buffer.o.d
+build CMakeFiles/muduol.dir/Buffer.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/Buffer.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/Buffer.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/Channel.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/Channel.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/Channel.o.d
+build CMakeFiles/muduol.dir/Channel.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/Channel.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/Channel.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/CurrentThread.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/CurrentThread.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/CurrentThread.o.d
+build CMakeFiles/muduol.dir/CurrentThread.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/CurrentThread.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/CurrentThread.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/DefaultPoller.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/DefaultPoller.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/DefaultPoller.o.d
+build CMakeFiles/muduol.dir/DefaultPoller.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/DefaultPoller.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/DefaultPoller.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/EPollPoller.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/EPollPoller.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/EPollPoller.o.d
+build CMakeFiles/muduol.dir/EPollPoller.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/EPollPoller.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/EPollPoller.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/EventLoop.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/EventLoop.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/EventLoop.o.d
+build CMakeFiles/muduol.dir/EventLoop.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/EventLoop.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/EventLoop.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/EventLoopThread.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/EventLoopThread.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/EventLoopThread.o.d
+build CMakeFiles/muduol.dir/EventLoopThread.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/EventLoopThread.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/EventLoopThread.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/EventLoopThreadPool.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/EventLoopThreadPool.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/EventLoopThreadPool.o.d
+build CMakeFiles/muduol.dir/EventLoopThreadPool.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/EventLoopThreadPool.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/EventLoopThreadPool.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/InetAddress.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/InetAddress.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/InetAddress.o.d
+build CMakeFiles/muduol.dir/InetAddress.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/InetAddress.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/InetAddress.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/Logger.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/Logger.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/Logger.o.d
+build CMakeFiles/muduol.dir/Logger.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/Logger.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/Logger.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/Poller.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/Poller.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/Poller.o.d
+build CMakeFiles/muduol.dir/Poller.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/Poller.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/Poller.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/Socket.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/Socket.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/Socket.o.d
+build CMakeFiles/muduol.dir/Socket.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/Socket.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/Socket.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/TcpConnection.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/TcpConnection.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/TcpConnection.o.d
+build CMakeFiles/muduol.dir/TcpConnection.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/TcpConnection.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/TcpConnection.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/TcpServer.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/TcpServer.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/TcpServer.o.d
+build CMakeFiles/muduol.dir/TcpServer.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/TcpServer.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/TcpServer.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/Thread.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/Thread.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/Thread.o.d
+build CMakeFiles/muduol.dir/Thread.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/Thread.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/Thread.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
-build CMakeFiles/mymuduo.dir/Timestamp.o: CXX_COMPILER__mymuduo_Debug /home/zlzong/dev/c/muduo-learn/Timestamp.cc || cmake_object_order_depends_target_mymuduo
-  DEFINES = -Dmymuduo_EXPORTS
-  DEP_FILE = CMakeFiles/mymuduo.dir/Timestamp.o.d
+build CMakeFiles/muduol.dir/Timestamp.o: CXX_COMPILER__muduol_Debug /home/zlzong/dev/c/muduo-learn/Timestamp.cc || cmake_object_order_depends_target_muduol
+  DEFINES = -Dmuduol_EXPORTS
+  DEP_FILE = CMakeFiles/muduol.dir/Timestamp.o.d
   FLAGS = -g -std=c++11 -fPIC -g -fPIC -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
-  OBJECT_FILE_DIR = CMakeFiles/mymuduo.dir
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  OBJECT_DIR = CMakeFiles/muduol.dir
+  OBJECT_FILE_DIR = CMakeFiles/muduol.dir
 
 
 # =============================================================================
-# Link build statements for SHARED_LIBRARY target mymuduo
+# Link build statements for SHARED_LIBRARY target muduol
 
 
 #############################################
-# Link the shared library /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.so
+# Link the shared library /home/zlzong/dev/c/muduo-learn/lib/libmuduol.so
 
-build /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.so: CXX_SHARED_LIBRARY_LINKER__mymuduo_Debug CMakeFiles/mymuduo.dir/Acceptor.o CMakeFiles/mymuduo.dir/Buffer.o CMakeFiles/mymuduo.dir/Channel.o CMakeFiles/mymuduo.dir/CurrentThread.o CMakeFiles/mymuduo.dir/DefaultPoller.o CMakeFiles/mymuduo.dir/EPollPoller.o CMakeFiles/mymuduo.dir/EventLoop.o CMakeFiles/mymuduo.dir/EventLoopThread.o CMakeFiles/mymuduo.dir/EventLoopThreadPool.o CMakeFiles/mymuduo.dir/InetAddress.o CMakeFiles/mymuduo.dir/Logger.o CMakeFiles/mymuduo.dir/Poller.o CMakeFiles/mymuduo.dir/Socket.o CMakeFiles/mymuduo.dir/TcpConnection.o CMakeFiles/mymuduo.dir/TcpServer.o CMakeFiles/mymuduo.dir/Thread.o CMakeFiles/mymuduo.dir/Timestamp.o
+build /home/zlzong/dev/c/muduo-learn/lib/libmuduol.so: CXX_SHARED_LIBRARY_LINKER__muduol_Debug CMakeFiles/muduol.dir/Acceptor.o CMakeFiles/muduol.dir/Buffer.o CMakeFiles/muduol.dir/Channel.o CMakeFiles/muduol.dir/CurrentThread.o CMakeFiles/muduol.dir/DefaultPoller.o CMakeFiles/muduol.dir/EPollPoller.o CMakeFiles/muduol.dir/EventLoop.o CMakeFiles/muduol.dir/EventLoopThread.o CMakeFiles/muduol.dir/EventLoopThreadPool.o CMakeFiles/muduol.dir/InetAddress.o CMakeFiles/muduol.dir/Logger.o CMakeFiles/muduol.dir/Poller.o CMakeFiles/muduol.dir/Socket.o CMakeFiles/muduol.dir/TcpConnection.o CMakeFiles/muduol.dir/TcpServer.o CMakeFiles/muduol.dir/Thread.o CMakeFiles/muduol.dir/Timestamp.o
   LANGUAGE_COMPILE_FLAGS = -g -std=c++11 -fPIC -g
-  OBJECT_DIR = CMakeFiles/mymuduo.dir
+  OBJECT_DIR = CMakeFiles/muduol.dir
   POST_BUILD = :
   PRE_LINK = :
-  SONAME = libmymuduo.so
+  SONAME = libmuduol.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = CMakeFiles/mymuduo.dir/
-  TARGET_FILE = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.so
-  TARGET_PDB = /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.pdb
+  TARGET_FILE = /home/zlzong/dev/c/muduo-learn/lib/libmuduol.so
+  TARGET_PDB = muduol.so.dbg
 
 
 #############################################
@@ -247,9 +212,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build libmymuduo.so: phony /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.so
+build libmuduol.so: phony /home/zlzong/dev/c/muduo-learn/lib/libmuduol.so
 
-build mymuduo: phony /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.so
+build muduol: phony /home/zlzong/dev/c/muduo-learn/lib/libmuduol.so
 
 # =============================================================================
 # Folder targets.
@@ -259,7 +224,7 @@ build mymuduo: phony /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.so
 #############################################
 # Folder: /home/zlzong/dev/c/muduo-learn/cmake-build-debug
 
-build all: phony /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.so
+build all: phony /home/zlzong/dev/c/muduo-learn/lib/libmuduol.so
 
 # =============================================================================
 # Unknown Build Time Dependencies.
@@ -273,14 +238,14 @@ build all: phony /home/zlzong/dev/c/muduo-learn/lib/libmymuduo.so
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/zlzong/dev/c/muduo-learn/CMakeLists.txt /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/zlzong/dev/c/muduo-learn/CMakeLists.txt /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/zlzong/dev/c/muduo-learn/CMakeLists.txt /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build /home/zlzong/dev/c/muduo-learn/CMakeLists.txt /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################

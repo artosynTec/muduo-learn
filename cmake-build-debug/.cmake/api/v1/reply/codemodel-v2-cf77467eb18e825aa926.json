@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "mymuduo",
+					"name" : "muduol",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "mymuduo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mymuduo-Debug-24c66643c36eafe8a65f.json",
-					"name" : "mymuduo",
+					"id" : "muduol::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-muduol-Debug-04a5caba3564e8c709a2.json",
+					"name" : "muduol",
 					"projectIndex" : 0
 				}
 			]
